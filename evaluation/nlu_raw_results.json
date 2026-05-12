@@ -1,0 +1,5038 @@
+[
+  {
+    "id": "P001",
+    "strategy": "zero_shot",
+    "query": "Ciao, siamo una famiglia con due bambini di 6 e 9 anni, partiamo da Roma. Non abbiamo mai sciato, cerchiamo qualcosa di economico e non troppo lontano. Dove ci consigliate?",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Roma",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P001",
+    "strategy": "few_shot",
+    "query": "Ciao, siamo una famiglia con due bambini di 6 e 9 anni, partiamo da Roma. Non abbiamo mai sciato, cerchiamo qualcosa di economico e non troppo lontano. Dove ci consigliate?",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Roma",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P001",
+    "strategy": "cot",
+    "query": "Ciao, siamo una famiglia con due bambini di 6 e 9 anni, partiamo da Roma. Non abbiamo mai sciato, cerchiamo qualcosa di economico e non troppo lontano. Dove ci consigliate?",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Roma",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P002",
+    "strategy": "zero_shot",
+    "query": "Vorremmo portare i bambini sulla neve per la prima volta, abitiamo a Napoli. Budget limitato, preferiamo piste facili e un posto tranquillo.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P002",
+    "strategy": "few_shot",
+    "query": "Vorremmo portare i bambini sulla neve per la prima volta, abitiamo a Napoli. Budget limitato, preferiamo piste facili e un posto tranquillo.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P002",
+    "strategy": "cot",
+    "query": "Vorremmo portare i bambini sulla neve per la prima volta, abitiamo a Napoli. Budget limitato, preferiamo piste facili e un posto tranquillo.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P003",
+    "strategy": "zero_shot",
+    "query": "Siamo una famiglia milanese, bambini piccoli, vogliamo un weekend sulla neve. Prima volta sugli sci per i piccoli, budget medio. Qualcosa di raggiungibile da Milano senza troppo viaggio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P003",
+    "strategy": "few_shot",
+    "query": "Siamo una famiglia milanese, bambini piccoli, vogliamo un weekend sulla neve. Prima volta sugli sci per i piccoli, budget medio. Qualcosa di raggiungibile da Milano senza troppo viaggio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P003",
+    "strategy": "cot",
+    "query": "Siamo una famiglia milanese, bambini piccoli, vogliamo un weekend sulla neve. Prima volta sugli sci per i piccoli, budget medio. Qualcosa di raggiungibile da Milano senza troppo viaggio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "medium",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "level"
+      ]
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P004",
+    "strategy": "zero_shot",
+    "query": "Cerco una stazione sciistica per bambini, siamo di Torino. I ragazzi non hanno mai sciato, vogliamo una settimana bianca tranquilla. Spesa nella media.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P004",
+    "strategy": "few_shot",
+    "query": "Cerco una stazione sciistica per bambini, siamo di Torino. I ragazzi non hanno mai sciato, vogliamo una settimana bianca tranquilla. Spesa nella media.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P004",
+    "strategy": "cot",
+    "query": "Cerco una stazione sciistica per bambini, siamo di Torino. I ragazzi non hanno mai sciato, vogliamo una settimana bianca tranquilla. Spesa nella media.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P005",
+    "strategy": "zero_shot",
+    "query": "Dove posso portare la famiglia a sciare spendendo poco? Siamo principianti assoluti, cerchiamo piste per bambini e prezzi accessibili.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P005",
+    "strategy": "few_shot",
+    "query": "Dove posso portare la famiglia a sciare spendendo poco? Siamo principianti assoluti, cerchiamo piste per bambini e prezzi accessibili.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P005",
+    "strategy": "cot",
+    "query": "Dove posso portare la famiglia a sciare spendendo poco? Siamo principianti assoluti, cerchiamo piste per bambini e prezzi accessibili.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P006",
+    "strategy": "zero_shot",
+    "query": "Siamo a Vienna con due bambini, stiamo cercando una stazione sciistica adatta per chi inizia da zero. Budget medio, vogliamo stare in Austria.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P006",
+    "strategy": "few_shot",
+    "query": "Siamo a Vienna con due bambini, stiamo cercando una stazione sciistica adatta per chi inizia da zero. Budget medio, vogliamo stare in Austria.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P006",
+    "strategy": "cot",
+    "query": "Siamo a Vienna con due bambini, stiamo cercando una stazione sciistica adatta per chi inizia da zero. Budget medio, vogliamo stare in Austria.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P007",
+    "strategy": "zero_shot",
+    "query": "Famiglia con bambini da Bologna cerca stazione sci con piste verdi e blu. Siamo alle prime armi, prezzo nella media. Possibilmente non troppo lontano dall'Emilia.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P007",
+    "strategy": "few_shot",
+    "query": "Famiglia con bambini da Bologna cerca stazione sci con piste verdi e blu. Siamo alle prime armi, prezzo nella media. Possibilmente non troppo lontano dall'Emilia.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P007",
+    "strategy": "cot",
+    "query": "Famiglia con bambini da Bologna cerca stazione sci con piste verdi e blu. Siamo alle prime armi, prezzo nella media. Possibilmente non troppo lontano dall'Emilia.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P008",
+    "strategy": "zero_shot",
+    "query": "Partiamo da Firenze, prima volta sulla neve con i bambini. Cerchiamo qualcosa di economico, piste adatte ai principianti, atmosfera familiare.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Firenze",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Firenze",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P008",
+    "strategy": "few_shot",
+    "query": "Partiamo da Firenze, prima volta sulla neve con i bambini. Cerchiamo qualcosa di economico, piste adatte ai principianti, atmosfera familiare.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Firenze",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Firenze",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P008",
+    "strategy": "cot",
+    "query": "Partiamo da Firenze, prima volta sulla neve con i bambini. Cerchiamo qualcosa di economico, piste adatte ai principianti, atmosfera familiare.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Firenze",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Firenze",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P009",
+    "strategy": "zero_shot",
+    "query": "Sono alle prime armi con lo sci ma cerco soprattutto paesaggi mozzafiato. Parto da Venezia, budget medio. Mi interessa più la bellezza del posto che le piste difficili.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Venezia",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Venezia",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P009",
+    "strategy": "few_shot",
+    "query": "Sono alle prime armi con lo sci ma cerco soprattutto paesaggi mozzafiato. Parto da Venezia, budget medio. Mi interessa più la bellezza del posto che le piste difficili.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Venezia",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Venezia",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P009",
+    "strategy": "cot",
+    "query": "Sono alle prime armi con lo sci ma cerco soprattutto paesaggi mozzafiato. Parto da Venezia, budget medio. Mi interessa più la bellezza del posto che le piste difficili.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Venezia",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Venezia",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P010",
+    "strategy": "zero_shot",
+    "query": "Non so sciare bene ma voglio godermi la montagna e i panorami. Sono a Roma, budget medio, qualcosa di scenico non troppo lontano.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P010",
+    "strategy": "few_shot",
+    "query": "Non so sciare bene ma voglio godermi la montagna e i panorami. Sono a Roma, budget medio, qualcosa di scenico non troppo lontano.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P010",
+    "strategy": "cot",
+    "query": "Non so sciare bene ma voglio godermi la montagna e i panorami. Sono a Roma, budget medio, qualcosa di scenico non troppo lontano.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P011",
+    "strategy": "zero_shot",
+    "query": "Cerco una stazione sciistica in Italia del nord con bei panorami, sono principiante e ho un budget limitato.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P011",
+    "strategy": "few_shot",
+    "query": "Cerco una stazione sciistica in Italia del nord con bei panorami, sono principiante e ho un budget limitato.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P011",
+    "strategy": "cot",
+    "query": "Cerco una stazione sciistica in Italia del nord con bei panorami, sono principiante e ho un budget limitato.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P012",
+    "strategy": "zero_shot",
+    "query": "Primo anno sugli sci, parto da Perugia. Cerco qualcosa di economico ma con un bel paesaggio montano. Non mi interessa la difficoltà delle piste.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Perugia",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Perugia",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P012",
+    "strategy": "few_shot",
+    "query": "Primo anno sugli sci, parto da Perugia. Cerco qualcosa di economico ma con un bel paesaggio montano. Non mi interessa la difficoltà delle piste.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Perugia",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Perugia",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P012",
+    "strategy": "cot",
+    "query": "Primo anno sugli sci, parto da Perugia. Cerco qualcosa di economico ma con un bel paesaggio montano. Non mi interessa la difficoltà delle piste.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Perugia",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "low",
+      "city_reference": "Perugia",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P013",
+    "strategy": "zero_shot",
+    "query": "Voglio sciare in Francia, sono alle prime armi. Mi interessa una stazione con paesaggi alpini belli, budget nella media. Non cerco piste nere.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P013",
+    "strategy": "few_shot",
+    "query": "Voglio sciare in Francia, sono alle prime armi. Mi interessa una stazione con paesaggi alpini belli, budget nella media. Non cerco piste nere.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P013",
+    "strategy": "cot",
+    "query": "Voglio sciare in Francia, sono alle prime armi. Mi interessa una stazione con paesaggi alpini belli, budget nella media. Non cerco piste nere.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P014",
+    "strategy": "zero_shot",
+    "query": "Voglio imparare a sciare ma per me è importante anche la vita notturna. Cerco una stazione in Austria con buon après-ski, non mi importa il budget. Ci sarà anche qualcosa di sera?",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P014",
+    "strategy": "few_shot",
+    "query": "Voglio imparare a sciare ma per me è importante anche la vita notturna. Cerco una stazione in Austria con buon après-ski, non mi importa il budget. Ci sarà anche qualcosa di sera?",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P014",
+    "strategy": "cot",
+    "query": "Voglio imparare a sciare ma per me è importante anche la vita notturna. Cerco una stazione in Austria con buon après-ski, non mi importa il budget. Ci sarà anche qualcosa di sera?",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": false
+    }
+  },
+  {
+    "id": "P015",
+    "strategy": "zero_shot",
+    "query": "Sono un principiante motivato, voglio migliorare velocemente. Cerco una stazione vicino a Milano con buone scuole sci e molte piste blu. Budget medio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": null,
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": false,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P015",
+    "strategy": "few_shot",
+    "query": "Sono un principiante motivato, voglio migliorare velocemente. Cerco una stazione vicino a Milano con buone scuole sci e molte piste blu. Budget medio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P015",
+    "strategy": "cot",
+    "query": "Sono un principiante motivato, voglio migliorare velocemente. Cerco una stazione vicino a Milano con buone scuole sci e molte piste blu. Budget medio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": null,
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": false,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P016",
+    "strategy": "zero_shot",
+    "query": "Prima settimana bianca in Francia con gli amici, siamo tutti alle prime armi. Vogliamo sciare di giorno e divertirci la sera. Budget medio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P016",
+    "strategy": "few_shot",
+    "query": "Prima settimana bianca in Francia con gli amici, siamo tutti alle prime armi. Vogliamo sciare di giorno e divertirci la sera. Budget medio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P016",
+    "strategy": "cot",
+    "query": "Prima settimana bianca in Francia con gli amici, siamo tutti alle prime armi. Vogliamo sciare di giorno e divertirci la sera. Budget medio.",
+    "ground_truth": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "beginner",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": false,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P017",
+    "strategy": "zero_shot",
+    "query": "Sciamo da qualche anno, cerchiamo una stazione per tutta la famiglia vicino a Roma. Piste rosse per noi adulti e qualcosa di più facile per i bambini. Budget nella media.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P017",
+    "strategy": "few_shot",
+    "query": "Sciamo da qualche anno, cerchiamo una stazione per tutta la famiglia vicino a Roma. Piste rosse per noi adulti e qualcosa di più facile per i bambini. Budget nella media.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P017",
+    "strategy": "cot",
+    "query": "Sciamo da qualche anno, cerchiamo una stazione per tutta la famiglia vicino a Roma. Piste rosse per noi adulti e qualcosa di più facile per i bambini. Budget nella media.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "level"
+      ]
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P018",
+    "strategy": "zero_shot",
+    "query": "Cerchiamo qualcosa di economico da Napoli, siamo intermedi ma con bambini piccoli. Non vogliamo spendere troppo, basta che ci siano piste variegate.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P018",
+    "strategy": "few_shot",
+    "query": "Cerchiamo qualcosa di economico da Napoli, siamo intermedi ma con bambini piccoli. Non vogliamo spendere troppo, basta che ci siano piste variegate.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P018",
+    "strategy": "cot",
+    "query": "Cerchiamo qualcosa di economico da Napoli, siamo intermedi ma con bambini piccoli. Non vogliamo spendere troppo, basta che ci siano piste variegate.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": "Napoli",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P019",
+    "strategy": "zero_shot",
+    "query": "Famiglia con esperienza media da Milano, cerchiamo una stazione con piste per tutti i livelli. Non troppo lontano, settimana di vacanza invernale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": null,
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "budget",
+        "experience_type"
+      ]
+    },
+    "matches": {
+      "level": true,
+      "budget": false,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P019",
+    "strategy": "few_shot",
+    "query": "Famiglia con esperienza media da Milano, cerchiamo una stazione con piste per tutti i livelli. Non troppo lontano, settimana di vacanza invernale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": null,
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "budget"
+      ]
+    },
+    "matches": {
+      "level": true,
+      "budget": false,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P019",
+    "strategy": "cot",
+    "query": "Famiglia con esperienza media da Milano, cerchiamo una stazione con piste per tutti i livelli. Non troppo lontano, settimana di vacanza invernale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Milano",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": null,
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "budget"
+      ]
+    },
+    "matches": {
+      "level": true,
+      "budget": false,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P020",
+    "strategy": "zero_shot",
+    "query": "Cerchiamo la migliore stazione sciistica per famiglie in Europa, budget non è un problema. Vogliamo qualità, servizi per bambini, e piste per tutti i livelli.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "level"
+      ]
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P020",
+    "strategy": "few_shot",
+    "query": "Cerchiamo la migliore stazione sciistica per famiglie in Europa, budget non è un problema. Vogliamo qualità, servizi per bambini, e piste per tutti i livelli.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "level"
+      ]
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P020",
+    "strategy": "cot",
+    "query": "Cerchiamo la migliore stazione sciistica per famiglie in Europa, budget non è un problema. Vogliamo qualità, servizi per bambini, e piste per tutti i livelli.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P021",
+    "strategy": "zero_shot",
+    "query": "Da Bologna, sci in famiglia, livello intermedio. Bambini adolescenti che sciamo insieme. Budget medio, preferibilmente in Italia.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "experience_type": "family",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "country": "Italy",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P021",
+    "strategy": "few_shot",
+    "query": "Da Bologna, sci in famiglia, livello intermedio. Bambini adolescenti che sciamo insieme. Budget medio, preferibilmente in Italia.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "experience_type": "family",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "country": "Italy",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P021",
+    "strategy": "cot",
+    "query": "Da Bologna, sci in famiglia, livello intermedio. Bambini adolescenti che sciamo insieme. Budget medio, preferibilmente in Italia.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "experience_type": "family",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Bologna",
+      "country": "Italy",
+      "experience_type": "family",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P022",
+    "strategy": "zero_shot",
+    "query": "Sciatore intermedio da Milano, cerco una stazione con snowpark e piste rosse tecniche. Budget elevato, voglio qualità e km di piste. Interessato anche allo snowpark.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P022",
+    "strategy": "few_shot",
+    "query": "Sciatore intermedio da Milano, cerco una stazione con snowpark e piste rosse tecniche. Budget elevato, voglio qualità e km di piste. Interessato anche allo snowpark.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P022",
+    "strategy": "cot",
+    "query": "Sciatore intermedio da Milano, cerco una stazione con snowpark e piste rosse tecniche. Budget elevato, voglio qualità e km di piste. Interessato anche allo snowpark.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P023",
+    "strategy": "zero_shot",
+    "query": "Sciatore di livello medio da Torino, voglio una settimana sulle piste rosse. Budget nella media, cerco tanti km di piste e buon innevamento.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P023",
+    "strategy": "few_shot",
+    "query": "Sciatore di livello medio da Torino, voglio una settimana sulle piste rosse. Budget nella media, cerco tanti km di piste e buon innevamento.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P023",
+    "strategy": "cot",
+    "query": "Sciatore di livello medio da Torino, voglio una settimana sulle piste rosse. Budget nella media, cerco tanti km di piste e buon innevamento.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P024",
+    "strategy": "zero_shot",
+    "query": "Voglio una settimana sciistica seria in Austria, sono intermedio e voglio migliorare su piste rosse lunghe. Budget alto, preferisco stazioni con molti km di piste.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P024",
+    "strategy": "few_shot",
+    "query": "Voglio una settimana sciistica seria in Austria, sono intermedio e voglio migliorare su piste rosse lunghe. Budget alto, preferisco stazioni con molti km di piste.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P024",
+    "strategy": "cot",
+    "query": "Voglio una settimana sciistica seria in Austria, sono intermedio e voglio migliorare su piste rosse lunghe. Budget alto, preferisco stazioni con molti km di piste.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P025",
+    "strategy": "zero_shot",
+    "query": "Cerco una grande stazione in Francia, livello intermedio, snowpark per fare qualche trick. Budget non è un problema, voglio il meglio della Valle Bianca o simili.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P025",
+    "strategy": "few_shot",
+    "query": "Cerco una grande stazione in Francia, livello intermedio, snowpark per fare qualche trick. Budget non è un problema, voglio il meglio della Valle Bianca o simili.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P025",
+    "strategy": "cot",
+    "query": "Cerco una grande stazione in Francia, livello intermedio, snowpark per fare qualche trick. Budget non è un problema, voglio il meglio della Valle Bianca o simili.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P026",
+    "strategy": "zero_shot",
+    "query": "Sciatore discreto da Roma, voglio piste rosse senza stare troppo lontano. Budget medio, cerco una stazione italiana con buona skiarea.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P026",
+    "strategy": "few_shot",
+    "query": "Sciatore discreto da Roma, voglio piste rosse senza stare troppo lontano. Budget medio, cerco una stazione italiana con buona skiarea.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P026",
+    "strategy": "cot",
+    "query": "Sciatore discreto da Roma, voglio piste rosse senza stare troppo lontano. Budget medio, cerco una stazione italiana con buona skiarea.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Roma",
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P027",
+    "strategy": "zero_shot",
+    "query": "Livello intermedio, cerco una stazione italiana del nord con almeno 50km di piste rosse e buon innevamento artificiale. Budget medio.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P027",
+    "strategy": "few_shot",
+    "query": "Livello intermedio, cerco una stazione italiana del nord con almeno 50km di piste rosse e buon innevamento artificiale. Budget medio.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P027",
+    "strategy": "cot",
+    "query": "Livello intermedio, cerco una stazione italiana del nord con almeno 50km di piste rosse e buon innevamento artificiale. Budget medio.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P028",
+    "strategy": "zero_shot",
+    "query": "Cerco una stazione in Italia del nord economica ma con buone piste per un livello intermedio. Vorrei sciare su rosse e qualche nera, ma senza spendere troppo.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P028",
+    "strategy": "few_shot",
+    "query": "Cerco una stazione in Italia del nord economica ma con buone piste per un livello intermedio. Vorrei sciare su rosse e qualche nera, ma senza spendere troppo.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P028",
+    "strategy": "cot",
+    "query": "Cerco una stazione in Italia del nord economica ma con buone piste per un livello intermedio. Vorrei sciare su rosse e qualche nera, ma senza spendere troppo.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "low",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P029",
+    "strategy": "zero_shot",
+    "query": "Sciatore intermedio in cerca della stazione europea più completa: voglio snowpark, sci notturno e tanti km di piste. Budget illimitato.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P029",
+    "strategy": "few_shot",
+    "query": "Sciatore intermedio in cerca della stazione europea più completa: voglio snowpark, sci notturno e tanti km di piste. Budget illimitato.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P029",
+    "strategy": "cot",
+    "query": "Sciatore intermedio in cerca della stazione europea più completa: voglio snowpark, sci notturno e tanti km di piste. Budget illimitato.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P030",
+    "strategy": "zero_shot",
+    "query": "Gruppo di amici, sciamo bene ma vogliamo soprattutto divertirci la sera. Austria è la meta perfetta per l'après-ski, budget alto, vogliamo la stazione più festosa possibile.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": false
+    }
+  },
+  {
+    "id": "P030",
+    "strategy": "few_shot",
+    "query": "Gruppo di amici, sciamo bene ma vogliamo soprattutto divertirci la sera. Austria è la meta perfetta per l'après-ski, budget alto, vogliamo la stazione più festosa possibile.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": false
+    }
+  },
+  {
+    "id": "P030",
+    "strategy": "cot",
+    "query": "Gruppo di amici, sciamo bene ma vogliamo soprattutto divertirci la sera. Austria è la meta perfetta per l'après-ski, budget alto, vogliamo la stazione più festosa possibile.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": false
+    }
+  },
+  {
+    "id": "P031",
+    "strategy": "zero_shot",
+    "query": "Cerco una stazione francese con bella vita notturna e buone piste rosse. Budget elevato, voglio un posto alla moda dove sciare e poi godersi la serata.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P031",
+    "strategy": "few_shot",
+    "query": "Cerco una stazione francese con bella vita notturna e buone piste rosse. Budget elevato, voglio un posto alla moda dove sciare e poi godersi la serata.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P031",
+    "strategy": "cot",
+    "query": "Cerco una stazione francese con bella vita notturna e buone piste rosse. Budget elevato, voglio un posto alla moda dove sciare e poi godersi la serata.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P032",
+    "strategy": "zero_shot",
+    "query": "Da Milano cerco una stazione con ottimo après-ski, sciamo a livello intermedio. Budget alto, vogliamo lusso e divertimento serale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P032",
+    "strategy": "few_shot",
+    "query": "Da Milano cerco una stazione con ottimo après-ski, sciamo a livello intermedio. Budget alto, vogliamo lusso e divertimento serale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P032",
+    "strategy": "cot",
+    "query": "Da Milano cerco una stazione con ottimo après-ski, sciamo a livello intermedio. Budget alto, vogliamo lusso e divertimento serale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": "Milano",
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P033",
+    "strategy": "zero_shot",
+    "query": "Voglio una settimana di sci e divertimento, livello intermedio, budget medio. Non ho preferenze geografiche, cerco un buon mix di piste e vita sociale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P033",
+    "strategy": "few_shot",
+    "query": "Voglio una settimana di sci e divertimento, livello intermedio, budget medio. Non ho preferenze geografiche, cerco un buon mix di piste e vita sociale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P033",
+    "strategy": "cot",
+    "query": "Voglio una settimana di sci e divertimento, livello intermedio, budget medio. Non ho preferenze geografiche, cerco un buon mix di piste e vita sociale.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": null,
+      "experience_type": null,
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": false,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P034",
+    "strategy": "zero_shot",
+    "query": "Siamo a Vienna, sciatori medi, vogliamo un weekend con buon après-ski in Austria. Budget nella media.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P034",
+    "strategy": "few_shot",
+    "query": "Siamo a Vienna, sciatori medi, vogliamo un weekend con buon après-ski in Austria. Budget nella media.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P034",
+    "strategy": "cot",
+    "query": "Siamo a Vienna, sciatori medi, vogliamo un weekend con buon après-ski in Austria. Budget nella media.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P035",
+    "strategy": "zero_shot",
+    "query": "Sciatore intermedio in cerca di paesaggi spettacolari sulle Alpi italiane. Budget medio, cerco una stazione con viste mozzafiato e piste rosse.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P035",
+    "strategy": "few_shot",
+    "query": "Sciatore intermedio in cerca di paesaggi spettacolari sulle Alpi italiane. Budget medio, cerco una stazione con viste mozzafiato e piste rosse.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P035",
+    "strategy": "cot",
+    "query": "Sciatore intermedio in cerca di paesaggi spettacolari sulle Alpi italiane. Budget medio, cerco una stazione con viste mozzafiato e piste rosse.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P036",
+    "strategy": "zero_shot",
+    "query": "Da Torino cerco una stazione con scenari alpini straordinari, piste rosse per un livello intermedio, budget nella norma.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P036",
+    "strategy": "few_shot",
+    "query": "Da Torino cerco una stazione con scenari alpini straordinari, piste rosse per un livello intermedio, budget nella norma.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P036",
+    "strategy": "cot",
+    "query": "Da Torino cerco una stazione con scenari alpini straordinari, piste rosse per un livello intermedio, budget nella norma.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P037",
+    "strategy": "zero_shot",
+    "query": "Voglio la stazione sciistica più bella d'Europa dal punto di vista paesaggistico. Sono un buon sciatore, il budget non è un limite. Voglio panorami indimenticabili.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P037",
+    "strategy": "few_shot",
+    "query": "Voglio la stazione sciistica più bella d'Europa dal punto di vista paesaggistico. Sono un buon sciatore, il budget non è un limite. Voglio panorami indimenticabili.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P037",
+    "strategy": "cot",
+    "query": "Voglio la stazione sciistica più bella d'Europa dal punto di vista paesaggistico. Sono un buon sciatore, il budget non è un limite. Voglio panorami indimenticabili.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P038",
+    "strategy": "zero_shot",
+    "query": "Cerco una stazione francese con panorami alpini da cartolina, piste rosse, budget medio.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": [
+        "level"
+      ]
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P038",
+    "strategy": "few_shot",
+    "query": "Cerco una stazione francese con panorami alpini da cartolina, piste rosse, budget medio.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P038",
+    "strategy": "cot",
+    "query": "Cerco una stazione francese con panorami alpini da cartolina, piste rosse, budget medio.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": null,
+      "budget": "medium",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": false,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P039",
+    "strategy": "zero_shot",
+    "query": "Stazione austriaca con viste sulle Alpi, sciatore intermedio, budget nella media. Voglio che ogni discesa sia una cartolina.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P039",
+    "strategy": "few_shot",
+    "query": "Stazione austriaca con viste sulle Alpi, sciatore intermedio, budget nella media. Voglio che ogni discesa sia una cartolina.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P039",
+    "strategy": "cot",
+    "query": "Stazione austriaca con viste sulle Alpi, sciatore intermedio, budget nella media. Voglio che ogni discesa sia una cartolina.",
+    "ground_truth": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "panoramic",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "intermediate",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "panoramic",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P040",
+    "strategy": "zero_shot",
+    "query": "Sci agonistico, cerco la stazione con le piste nere più impegnative in Austria. Budget illimitato, voglio dislivello massimo e snowcannons per garantire innevamento.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P040",
+    "strategy": "few_shot",
+    "query": "Sci agonistico, cerco la stazione con le piste nere più impegnative in Austria. Budget illimitato, voglio dislivello massimo e snowcannons per garantire innevamento.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P040",
+    "strategy": "cot",
+    "query": "Sci agonistico, cerco la stazione con le piste nere più impegnative in Austria. Budget illimitato, voglio dislivello massimo e snowcannons per garantire innevamento.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P041",
+    "strategy": "zero_shot",
+    "query": "Voglio fare fuoripista in Francia, sono un esperto. Cerco alta quota, tanta neve, piste nere serie. Budget alto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P041",
+    "strategy": "few_shot",
+    "query": "Voglio fare fuoripista in Francia, sono un esperto. Cerco alta quota, tanta neve, piste nere serie. Budget alto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P041",
+    "strategy": "cot",
+    "query": "Voglio fare fuoripista in Francia, sono un esperto. Cerco alta quota, tanta neve, piste nere serie. Budget alto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P042",
+    "strategy": "zero_shot",
+    "query": "Sciatore esperto cerca piste nere impegnative in Italia del nord. Non ho budget illimitato ma voglio piste di qualità e buon dislivello.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P042",
+    "strategy": "few_shot",
+    "query": "Sciatore esperto cerca piste nere impegnative in Italia del nord. Non ho budget illimitato ma voglio piste di qualità e buon dislivello.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P042",
+    "strategy": "cot",
+    "query": "Sciatore esperto cerca piste nere impegnative in Italia del nord. Non ho budget illimitato ma voglio piste di qualità e buon dislivello.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Italy",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": null,
+      "city_reference": null,
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": false,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P043",
+    "strategy": "zero_shot",
+    "query": "Da Vienna, sciatore di alto livello, cerco la stazione con il maggior dislivello in Austria. Budget non è un problema.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": "Vienna",
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P043",
+    "strategy": "few_shot",
+    "query": "Da Vienna, sciatore di alto livello, cerco la stazione con il maggior dislivello in Austria. Budget non è un problema.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": "Vienna",
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P043",
+    "strategy": "cot",
+    "query": "Da Vienna, sciatore di alto livello, cerco la stazione con il maggior dislivello in Austria. Budget non è un problema.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": "Vienna",
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": "Vienna",
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P044",
+    "strategy": "zero_shot",
+    "query": "Esperto di freestyle, cerco la stazione europea con il miglior snowpark e piste tecniche. Budget alto, non importa dove si trova.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P044",
+    "strategy": "few_shot",
+    "query": "Esperto di freestyle, cerco la stazione europea con il miglior snowpark e piste tecniche. Budget alto, non importa dove si trova.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P044",
+    "strategy": "cot",
+    "query": "Esperto di freestyle, cerco la stazione europea con il miglior snowpark e piste tecniche. Budget alto, non importa dove si trova.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P045",
+    "strategy": "zero_shot",
+    "query": "Cercate stazioni in Austria con sci notturno e piste nere. Sciatore esperto, budget alto, voglio sciare anche dopo il tramonto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P045",
+    "strategy": "few_shot",
+    "query": "Cercate stazioni in Austria con sci notturno e piste nere. Sciatore esperto, budget alto, voglio sciare anche dopo il tramonto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P045",
+    "strategy": "cot",
+    "query": "Cercate stazioni in Austria con sci notturno e piste nere. Sciatore esperto, budget alto, voglio sciare anche dopo il tramonto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P046",
+    "strategy": "zero_shot",
+    "query": "Sciatore esperto da Torino, cerco piste nere con buon dislivello sulle Alpi italiane. Budget medio, voglio sfida tecnica.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P046",
+    "strategy": "few_shot",
+    "query": "Sciatore esperto da Torino, cerco piste nere con buon dislivello sulle Alpi italiane. Budget medio, voglio sfida tecnica.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P046",
+    "strategy": "cot",
+    "query": "Sciatore esperto da Torino, cerco piste nere con buon dislivello sulle Alpi italiane. Budget medio, voglio sfida tecnica.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "medium",
+      "city_reference": "Torino",
+      "country": "Italy",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": true,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P047",
+    "strategy": "zero_shot",
+    "query": "Esperto che ama lo sci freestyle, voglio la stazione francese con snowpark di livello mondiale e piste nere. Budget alto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P047",
+    "strategy": "few_shot",
+    "query": "Esperto che ama lo sci freestyle, voglio la stazione francese con snowpark di livello mondiale e piste nere. Budget alto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P047",
+    "strategy": "cot",
+    "query": "Esperto che ama lo sci freestyle, voglio la stazione francese con snowpark di livello mondiale e piste nere. Budget alto.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "sport",
+      "country": "France",
+      "snowpark": true,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": true,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": true,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P048",
+    "strategy": "zero_shot",
+    "query": "Sciatore esperto, voglio una stazione austriaca dove sciare su nere di giorno e fare festa la notte. Budget alto, sci notturno indispensabile.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P048",
+    "strategy": "few_shot",
+    "query": "Sciatore esperto, voglio una stazione austriaca dove sciare su nere di giorno e fare festa la notte. Budget alto, sci notturno indispensabile.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P048",
+    "strategy": "cot",
+    "query": "Sciatore esperto, voglio una stazione austriaca dove sciare su nere di giorno e fare festa la notte. Budget alto, sci notturno indispensabile.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "Austria",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "Austria",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P049",
+    "strategy": "zero_shot",
+    "query": "Esperto, cerco la stazione francese più glam: piste difficili di giorno, champagne e musica di sera. Budget illimitato.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P049",
+    "strategy": "few_shot",
+    "query": "Esperto, cerco la stazione francese più glam: piste difficili di giorno, champagne e musica di sera. Budget illimitato.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P049",
+    "strategy": "cot",
+    "query": "Esperto, cerco la stazione francese più glam: piste difficili di giorno, champagne e musica di sera. Budget illimitato.",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "country": "France",
+      "snowpark": null,
+      "night_ski": null
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": "France",
+      "experience_type": "sport",
+      "snowpark": null,
+      "night_ski": null,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": true,
+      "experience_type": false,
+      "snowpark": null,
+      "night_ski": null
+    }
+  },
+  {
+    "id": "P050",
+    "strategy": "zero_shot",
+    "query": "Cerco la stazione europea definitiva: piste nere lunghe, après-ski leggendario, sci notturno. Budget non è un limite. Dove andate se volete il massimo?",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P050",
+    "strategy": "few_shot",
+    "query": "Cerco la stazione europea definitiva: piste nere lunghe, après-ski leggendario, sci notturno. Budget non è un limite. Dove andate se volete il massimo?",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  },
+  {
+    "id": "P050",
+    "strategy": "cot",
+    "query": "Cerco la stazione europea definitiva: piste nere lunghe, après-ski leggendario, sci notturno. Budget non è un limite. Dove andate se volete il massimo?",
+    "ground_truth": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true
+    },
+    "prediction": {
+      "level": "expert",
+      "budget": "high",
+      "city_reference": null,
+      "country": null,
+      "experience_type": "apres_ski",
+      "snowpark": null,
+      "night_ski": true,
+      "needs_clarification": false,
+      "missing_fields": []
+    },
+    "matches": {
+      "level": true,
+      "budget": true,
+      "city_reference": null,
+      "country": null,
+      "experience_type": true,
+      "snowpark": null,
+      "night_ski": true
+    }
+  }
+]

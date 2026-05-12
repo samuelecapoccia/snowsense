@@ -1,0 +1,51 @@
+profile_id,query,zona,expected_countries,returned_countries,expected_level,expected_budget,country_match,budget_match,level_match,match_score,overall_pass,status
+P001,"Ciao, siamo una famiglia con due bambini di 6 e 9 anni, partiamo da Roma. Non ab",italy_center_south,Italy,"Italy, Italy, Italy",beginner,low,1,1,1,1.0,True,ok
+P002,"Vorremmo portare i bambini sulla neve per la prima volta, abitiamo a Napoli. Bud",italy_center_south,Italy,"Italy, Italy, Serbia",beginner,low,1,1,1,1.0,True,ok
+P003,"Siamo una famiglia milanese, bambini piccoli, vogliamo un weekend sulla neve. Pr",italy_north,Italy,"Italy, Switzerland, Italy",beginner,medium,1,1,1,1.0,True,ok
+P004,"Cerco una stazione sciistica per bambini, siamo di Torino. I ragazzi non hanno m",italy_north,Italy,"France, Italy, France",beginner,medium,1,1,1,1.0,True,ok
+P005,Dove posso portare la famiglia a sciare spendendo poco? Siamo principianti assol,no_preference,any,"Lithuania, Serbia, France",beginner,low,1,1,1,1.0,True,ok
+P006,"Siamo a Vienna con due bambini, stiamo cercando una stazione sciistica adatta pe",austria,Austria,"Austria, Austria, Austria",beginner,medium,1,1,1,1.0,True,ok
+P007,Famiglia con bambini da Bologna cerca stazione sci con piste verdi e blu. Siamo ,italy_north,Italy,"Italy, Italy, Italy",beginner,medium,1,1,1,1.0,True,ok
+P008,"Partiamo da Firenze, prima volta sulla neve con i bambini. Cerchiamo qualcosa di",italy_center_south,Italy,"Italy, Italy, Italy",beginner,low,1,1,1,1.0,True,ok
+P009,Sono alle prime armi con lo sci ma cerco soprattutto paesaggi mozzafiato. Parto ,italy_north,Italy,"Italy, Italy, Italy",beginner,medium,1,1,1,1.0,True,ok
+P010,"Non so sciare bene ma voglio godermi la montagna e i panorami. Sono a Roma, budg",italy_center_south,Italy,"Italy, Italy, Italy",beginner,medium,1,1,1,1.0,True,ok
+P011,"Cerco una stazione sciistica in Italia del nord con bei panorami, sono principia",italy_north,Italy,"Italy, Italy, Italy",beginner,low,1,1,1,1.0,True,ok
+P012,"Primo anno sugli sci, parto da Perugia. Cerco qualcosa di economico ma con un be",italy_center_south,Italy,"Italy, Italy, Italy",beginner,low,1,1,1,1.0,True,ok
+P013,"Voglio sciare in Francia, sono alle prime armi. Mi interessa una stazione con pa",france,France,"France, France, France",beginner,medium,1,1,1,1.0,True,ok
+P014,Voglio imparare a sciare ma per me è importante anche la vita notturna. Cerco un,austria,Austria,"Austria, Austria, Austria",beginner,high,1,1,1,1.0,True,ok
+P015,"Sono un principiante motivato, voglio migliorare velocemente. Cerco una stazione",italy_north,Italy,"Switzerland, Italy, Italy",beginner,medium,1,1,1,1.0,True,ok
+P016,"Prima settimana bianca in Francia con gli amici, siamo tutti alle prime armi. Vo",france,France,"France, France, France",beginner,medium,1,1,1,1.0,True,ok
+P017,"Sciamo da qualche anno, cerchiamo una stazione per tutta la famiglia vicino a Ro",italy_center_south,Italy,"Italy, Italy, Italy",intermediate,medium,1,1,1,1.0,True,ok
+P018,"Cerchiamo qualcosa di economico da Napoli, siamo intermedi ma con bambini piccol",italy_center_south,Italy,"Italy, Italy, Bosnia and Herzegovina",intermediate,low,1,1,1,1.0,True,ok
+P019,"Famiglia con esperienza media da Milano, cerchiamo una stazione con piste per tu",italy_north,Italy,"Switzerland, Italy, Switzerland",intermediate,medium,1,1,1,1.0,True,ok
+P020,"Cerchiamo la migliore stazione sciistica per famiglie in Europa, budget non è un",no_preference,any,"France, France, France",intermediate,high,1,1,1,1.0,True,ok
+P021,"Da Bologna, sci in famiglia, livello intermedio. Bambini adolescenti che sciamo ",italy_north,Italy,"Italy, Italy, Italy",intermediate,medium,1,1,1,1.0,True,ok
+P022,"Sciatore intermedio da Milano, cerco una stazione con snowpark e piste rosse tec",italy_north,Italy,"Switzerland, Switzerland, Switzerland",intermediate,high,0,1,1,0.667,False,ok
+P023,"Sciatore di livello medio da Torino, voglio una settimana sulle piste rosse. Bud",italy_north,Italy,"Italy, Italy, France",intermediate,medium,1,1,1,1.0,True,ok
+P024,"Voglio una settimana sciistica seria in Austria, sono intermedio e voglio miglio",austria,Austria,"Austria, Austria, Austria",intermediate,high,1,1,1,1.0,True,ok
+P025,"Cerco una grande stazione in Francia, livello intermedio, snowpark per fare qual",france,France,"France, France, France",intermediate,high,1,1,1,1.0,True,ok
+P026,"Sciatore discreto da Roma, voglio piste rosse senza stare troppo lontano. Budget",italy_center_south,Italy,"Italy, Italy, Italy",intermediate,medium,1,1,1,1.0,True,ok
+P027,"Livello intermedio, cerco una stazione italiana del nord con almeno 50km di pist",italy_north,Italy,"Italy, Italy, Italy",intermediate,medium,1,1,1,1.0,True,ok
+P028,Cerco una stazione in Italia del nord economica ma con buone piste per un livell,italy_north,Italy,"Italy, Italy, Italy",intermediate,low,1,1,1,1.0,True,ok
+P029,Sciatore intermedio in cerca della stazione europea più completa: voglio snowpar,no_preference,any,"Switzerland, Austria, Italy",intermediate,high,1,1,1,1.0,True,ok
+P030,"Gruppo di amici, sciamo bene ma vogliamo soprattutto divertirci la sera. Austria",austria,Austria,"Austria, Austria, Austria",intermediate,high,1,1,1,1.0,True,ok
+P031,Cerco una stazione francese con bella vita notturna e buone piste rosse. Budget ,france,France,"France, France, France",intermediate,high,1,1,1,1.0,True,ok
+P032,"Da Milano cerco una stazione con ottimo après-ski, sciamo a livello intermedio. ",italy_north,Italy,"Italy, France, France",intermediate,high,1,1,1,1.0,True,ok
+P033,"Voglio una settimana di sci e divertimento, livello intermedio, budget medio. No",no_preference,any,"Austria, Austria, Austria",intermediate,medium,1,1,1,1.0,True,ok
+P034,"Siamo a Vienna, sciatori medi, vogliamo un weekend con buon après-ski in Austria",austria,Austria,"Austria, Austria, Austria",intermediate,medium,1,1,1,1.0,True,ok
+P035,Sciatore intermedio in cerca di paesaggi spettacolari sulle Alpi italiane. Budge,italy_north,Italy,"Italy, Italy, Italy",intermediate,medium,1,1,1,1.0,True,ok
+P036,"Da Torino cerco una stazione con scenari alpini straordinari, piste rosse per un",italy_north,Italy,"Italy, Italy, Italy",intermediate,medium,1,1,1,1.0,True,ok
+P037,Voglio la stazione sciistica più bella d'Europa dal punto di vista paesaggistico,no_preference,any,"Switzerland, Switzerland, Switzerland",intermediate,high,1,1,1,1.0,True,ok
+P038,"Cerco una stazione francese con panorami alpini da cartolina, piste rosse, budge",france,France,"France, France, France",intermediate,medium,1,1,1,1.0,True,ok
+P039,"Stazione austriaca con viste sulle Alpi, sciatore intermedio, budget nella media",austria,Austria,"Austria, Austria, Austria",intermediate,medium,1,1,1,1.0,True,ok
+P040,"Sci agonistico, cerco la stazione con le piste nere più impegnative in Austria. ",austria,Austria,"Austria, Austria, Austria",expert,high,1,1,1,1.0,True,ok
+P041,"Voglio fare fuoripista in Francia, sono un esperto. Cerco alta quota, tanta neve",france,France,"France, France, France",expert,high,1,1,1,1.0,True,ok
+P042,Sciatore esperto cerca piste nere impegnative in Italia del nord. Non ho budget ,italy_north,Italy,"Italy, Italy, Italy",expert,medium,1,1,1,1.0,True,ok
+P043,"Da Vienna, sciatore di alto livello, cerco la stazione con il maggior dislivello",austria,Austria,"Austria, Austria, Austria",expert,high,1,1,1,1.0,True,ok
+P044,"Esperto di freestyle, cerco la stazione europea con il miglior snowpark e piste ",no_preference,any,"Switzerland, Switzerland, France",expert,high,1,1,1,1.0,True,ok
+P045,"Cercate stazioni in Austria con sci notturno e piste nere. Sciatore esperto, bud",austria,Austria,"Austria, Austria, Austria",expert,high,1,1,1,1.0,True,ok
+P046,"Sciatore esperto da Torino, cerco piste nere con buon dislivello sulle Alpi ital",italy_north,Italy,"Italy, Italy, Italy",expert,medium,1,1,1,1.0,True,ok
+P047,"Esperto che ama lo sci freestyle, voglio la stazione francese con snowpark di li",france,France,"France, France, France",expert,high,1,1,1,1.0,True,ok
+P048,"Sciatore esperto, voglio una stazione austriaca dove sciare su nere di giorno e ",austria,Austria,"Austria, Austria, Austria",expert,high,1,1,1,1.0,True,ok
+P049,"Esperto, cerco la stazione francese più glam: piste difficili di giorno, champag",france,France,"France, France, France",expert,high,1,1,1,1.0,True,ok
+P050,"Cerco la stazione europea definitiva: piste nere lunghe, après-ski leggendario, ",no_preference,any,"France, France, France",expert,high,1,1,1,1.0,True,ok

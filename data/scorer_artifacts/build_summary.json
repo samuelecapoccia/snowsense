@@ -1,0 +1,10 @@
+{
+  "n_resorts": 376,
+  "n_profiles": 50,
+  "n_training_samples": 18800,
+  "mlp_hidden_layers": [
+    64,
+    32
+  ],
+  "mlp_metrics": {
+    "rmse": 
