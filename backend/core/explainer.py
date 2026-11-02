@@ -32,34 +32,35 @@ load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 # ---------------------------------------------------------------------------
 
 DEEPSEEK_BASE_URL = "https://api.deepseek.com"
-DEFAULT_MODEL     = "deepseek-chat"
-MAX_TOKENS        = 300    # spiegazione concisa: 3-5 frasi per resort
-TEMPERATURE       = 0.4    # leggermente creativo ma coerente
+DEFAULT_MODEL = "deepseek-flash"
+MAX_TOKENS = 300  # spiegazione concisa: 3-5 frasi per resort
+TEMPERATURE = 0.4  # leggermente creativo ma coerente
 
 # ---------------------------------------------------------------------------
 # Dizionari di localizzazione per il prompt
 # ---------------------------------------------------------------------------
 
 _LEVEL_IT = {
-    "beginner":     "principiante",
+    "beginner": "principiante",
     "intermediate": "intermedio",
-    "expert":       "esperto",
+    "expert": "esperto",
 }
 _BUDGET_IT = {
-    "low":    "basso (preferibilmente sotto i 35€)",
+    "low": "basso (preferibilmente sotto i 35€)",
     "medium": "medio (35-55€)",
-    "high":   "alto (oltre 55€ non è un problema)",
+    "high": "alto (oltre 55€ non è un problema)",
 }
 _EXP_IT = {
-    "family":    "vacanza in famiglia con bambini",
+    "family": "vacanza in famiglia con bambini",
     "apres_ski": "après-ski e vita notturna",
-    "sport":     "esperienza sportiva su piste impegnative",
+    "sport": "esperienza sportiva su piste impegnative",
     "panoramic": "paesaggi e panorami alpini",
 }
 
 # ---------------------------------------------------------------------------
 # Costruzione del prompt
 # ---------------------------------------------------------------------------
+
 
 def _build_prompt(
     user_query: str,
@@ -73,11 +74,15 @@ def _build_prompt(
     # Sezione preferenze utente
     prefs = []
     if intent.get("level"):
-        prefs.append(f"- Livello sciatore: {_LEVEL_IT.get(intent['level'], intent['level'])}")
+        prefs.append(
+            f"- Livello sciatore: {_LEVEL_IT.get(intent['level'], intent['level'])}"
+        )
     if intent.get("budget"):
         prefs.append(f"- Budget: {_BUDGET_IT.get(intent['budget'], intent['budget'])}")
     if intent.get("experience_type"):
-        prefs.append(f"- Tipo esperienza cercata: {_EXP_IT.get(intent['experience_type'], intent['experience_type'])}")
+        prefs.append(
+            f"- Tipo esperienza cercata: {_EXP_IT.get(intent['experience_type'], intent['experience_type'])}"
+        )
     if intent.get("city_reference"):
         prefs.append(f"- Città di partenza dell'utente: {intent['city_reference']}")
     if intent.get("snowpark") is True:
@@ -88,8 +93,8 @@ def _build_prompt(
     prefs_text = "\n".join(prefs) if prefs else "Nessuna preferenza specifica estratta."
 
     # Sezione dati resort
-    snowpark_txt  = "Sì" if str(resort.get("Snowparks", "")).lower() == "yes" else "No"
-    nightski_txt  = "Sì" if str(resort.get("NightSki", "")).lower() == "yes" else "No"
+    snowpark_txt = "Sì" if str(resort.get("Snowparks", "")).lower() == "yes" else "No"
+    nightski_txt = "Sì" if str(resort.get("NightSki", "")).lower() == "yes" else "No"
 
     dist_line = ""
     dist_km = _extract_distance_km(resort)
@@ -111,7 +116,7 @@ def _build_prompt(
 
     return (
         f"Un utente ha scritto questa richiesta:\n"
-        f"\"{user_query}\"\n\n"
+        f'"{user_query}"\n\n'
         f"Preferenze estratte:\n{prefs_text}\n\n"
         f"Dati del resort consigliato:\n{resort_data}\n"
         f"Scrivi una spiegazione personalizzata in italiano (3-4 frasi) che risponda "
@@ -140,6 +145,7 @@ def _extract_distance_km(resort: Dict[str, Any]) -> Optional[float]:
 # Classe principale
 # ---------------------------------------------------------------------------
 
+
 class SnowSenseExplainer:
     """
     Genera spiegazioni personalizzate per i resort raccomandati.
@@ -160,7 +166,7 @@ class SnowSenseExplainer:
                 "DEEPSEEK_API_KEY non configurata. Copia .env.example in .env e inserisci la chiave."
             )
         self.client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE_URL)
-        self.model  = model
+        self.model = model
 
     # ------------------------------------------------------------------
     # Interfaccia pubblica
